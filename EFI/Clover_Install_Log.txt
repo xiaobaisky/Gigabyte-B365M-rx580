@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Wed Apr  1 21:45:37 CST 2020
+Installer version: r5108 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI                         524.3 MB   disk0s1
+   2:       Microsoft Basic Data                         107.4 GB   disk0s2
+   3:       Microsoft Basic Data                         161.1 GB   disk0s3
+   4:                 Apple_APFS Container disk1         231.1 GB   disk0s4
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +231.1 GB   disk1
+                                 Physical Store disk0s4
+   1:                APFS Volume liu-jh - 数据           12.6 GB    disk1s1
+   2:                APFS Volume Preboot                 82.3 MB    disk1s2
+   3:                APFS Volume Recovery                528.1 MB   disk1s3
+   4:                APFS Volume VM                      2.1 GB     disk1s4
+   5:                APFS Volume liu-jh                  10.9 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *500.1 GB   disk2
+   1:               Windows_NTFS WIN7                    69.8 GB    disk2s1
+   2:               Windows_NTFS 软件                    143.9 GB   disk2s5
+   3:               Windows_NTFS 文档                    143.9 GB   disk2s6
+   4:               Windows_NTFS 娱乐                    142.5 GB   disk2s7
+
+Target volume /Volumes/liu-jh on disk1 is APFS on physical store disk0s4
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/liu-jh/EFIROOTDIR/EFI folder to /Volumes/liu-jh/EFI-Backups/r/2020-04-01-21h45/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
