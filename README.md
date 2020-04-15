@@ -1,0 +1,1 @@
+# Gigabyte-B365M-rx580
